@@ -1,28 +1,171 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio - Harrison Ennis</title>
+  <title>Harrison Ennis - Portfolio</title>
   
   <style>
     body {
       background-color: #121212;
       background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.9)), 
-                        url('background.jpg');
-      
+                        url('background.jpg'); 
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
+      
       color: #FFFFFF; 
-      font-family: Arial, Helvetica, sans-serif; 
-      padding: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
     }
-  </style>
+    .container {
+      display: flex; 
+      max-width: 1200px; 
+      margin: 40px auto; 
+      padding: 0 20px;
+    }
+    .sidebar {
+      width: 30%; 
+      padding-right: 20px; 
+    }
+    .main-content {
+      width: 70%; 
+    }
+    .card {
+      background-color: rgba(30, 30, 30, 0.8);
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+      border: 3px solid #FFF;
+    }
+    h1, h2, h3 {
+      color: #00BFFF;
+      margin-top: 0;
+    }
+    .socials-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .socials-list li {
+      margin-bottom: 10px;
+    }
+    .socials-list a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .socials-list a:hover {
+      text-decoration: underline;
+    }
+    .certs-list {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .list-item {
+      display: flex;
+      align-items: center; 
+      margin-bottom: 15px;
+    }
+    .list-item-logo {
+      width: 60px;
+      height: auto;
+      margin-right: 15px;
+    }
+    .list-item-content h3 {
+      margin-bottom: 5px;
+    }
+    .list-item-content p {
+      margin: 0;
+    }
 
+  </style>
 </head>
 <body>
-  
-  <h1>Hello, World!</h1>
-  <p>Welcome to my new website.</p>
+
+  <div class="container">
+
+    <div class="sidebar">
+
+      <div class="card">
+        <img src="profile-pic.jpg" alt="My Profile Picture" class="profile-pic">
+        
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm a passionate cyber security student about to complete my 
+          Certificate IV. I'm skilled in... [Write your brief description here].
+        </p>
+      </div>
+      
+      <div class="card">
+        <h2>Socials</h2>
+        <ul class="socials-list">
+          <li><a href="YOUR-LINKEDIN-URL" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a></li>
+          <li><a href="mailto:YOUR-EMAIL@example.com">Email</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Certificates</h2>
+        <ul class="certs-list">
+          <li>(ISC)² Certified in Cybersecurity (CC)</li>
+          <li>CompTIA Security+ (In Progress)</li>
+          </ul>
+      </div>
+
+    </div>
+    <div class="main-content">
+
+      <div class="card">
+        <h2>Projects</h2>
+        
+        <div class="list-item">
+          <div class="list-item-content">
+            <h3>Local, GPU-Accelerated LLM Guide</h3>
+            <p>
+              A detailed guide for setting up a local LLM with AnythingLLM and Ollama
+              on Debian (AMD ROCm).
+              <a href="YOUR-LLM-REPO-LINK">View on GitHub</a>
+            </p>
+          </div>
+        </div>
+        
+        </div>
+
+      <div class="card">
+        <h2>Education</h2>
+        
+        <div class="list-item">
+          <img src="kangan-logo.png" alt="Kangan Institute Logo" class="list-item-logo">
+          <div class="list-item-content">
+            <h3>Certificate IV in Cyber Security</h3>
+            <p>Kangan Institute (2025)</p>
+          </div>
+        </div>
+        
+        </div>
+      
+      <div class="card">
+        <h2>Work Experience</h2>
+        
+        <div class="list-item">
+          <div class="list-item-content">
+            <h3>Your Job Title</h3>
+            <p>Company Name (Date Range)</p>
+            <p>A brief description of your responsibilities...</p>
+          </div>
+        </div>
+        
+        </div>
+
+    </div>
+    </div>
 
 </body>
 </html>
