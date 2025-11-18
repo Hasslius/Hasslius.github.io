@@ -1,0 +1,59 @@
+[
+    {
+        "id": "local-ai-rocm",
+        "name": "Local, GPU-Accelerated LLM with AnythingLLM and Ollama on Debian",
+        "subtext": "Personal Project",
+        "description": "I setup a fully private, offline, and GPU-accelerated Large Language Model (LLM) on a Debian 12 system using an AMD Radeon RX 7700 XT.",
+        "summary": "How to Run a Local, GPU-Accelerated LLM with AnythingLLM and Ollama on Debian (AMD ROCm Guide)",
+        "image": "/projects/localairocm/icon.png",
+        "tags": [
+            "Linux System Administration,", 
+            "DevOps", 
+            "Containerization",
+            "AI & LLM Implementation",
+            "Technical Writing & Documentation"
+        ],
+        "link": "https://github.com/Hasslius/local-ai-rocm",
+        "images": [
+            "/projects/localairocm/icon.png"
+        ],
+        "resources": [],
+        "visible": true
+    },
+    {
+        "id": "pi-hole-project",
+        "name": "Pi-Hole Raspberry Pi Project",
+        "subtext": "Personal Project",
+        "description": "Configured a single-board computer (Raspberry Pi) to run a DNS sinkhole using Docker as application container. This enabled network-level advertisement blocking.",
+        "summary": "Linux network-level advertisement and Internet tracker blocking application.",
+        "image": "/projects/piholeproject/icon.png",
+        "tags": [
+            "Network Configuration",
+            "Hardware",
+            "Network Fundamentals"
+            
+        ],
+        "link": "",
+        "resources": [],
+        "visible": true
+    },
+    {
+        "id": "Pwnagotchi",
+        "name": "Pwnagotchi: A2C-Algorithm Wi-Fi Security Auditing Project",
+        "subtext": "Personal Project",
+        "description": "Built and configured a 'Pwnagotchi'. This device, built on a Raspberry Pi Zero W, is a physical tool for learning about Wi-Fi network security in a practical, ethical manner. The Pwnagotchi uses an Advantage Actor-Critic (A2C) learning model to passively sniff and actively capture WPA/WPA2 handshake data. Its goal is to learn from its surrounding Wi-Fi environment to become more efficient at identifying and capturing data useful for security auditing.",
+        "summary": "A2C-Based Wifi Security Auditing Tool built on a Raspberry Pi Zero W",
+        "image": "/projects/pwnagotchi/icon.png",
+        "tags": [
+            "Wireless Security",
+            "Penetration Testing",
+            "Linux Administration",
+            "Python",
+            "AI & Machine Learning",
+            "Hardware"
+        ],
+        "link": "",
+        "resources": [],
+        "visible": true
+    }
+]

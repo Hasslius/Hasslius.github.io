@@ -1,0 +1,28 @@
+{
+  "name": "lewpar-github-io",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "@primeuix/themes": "latest",
+    "nuxt": "^4.2.1",
+    "primevue": "latest",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-calendar-heatmap": "latest"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.4.1"
+  },
+
+  "overrides": {
+    "glob": "11.1.0"
+  }
+}

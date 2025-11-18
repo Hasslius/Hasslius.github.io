@@ -1,0 +1,31 @@
+import Aura from '@primeuix/themes/aura';
+
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: false },
+  ssr: false,
+
+  css: [
+    "~/assets/global.css"
+  ],
+
+  app: {
+    head: {
+      title: "Portfolio - Harrison Ennis",
+      link: [
+        { rel: "icon", type: "image/png", href: "/favicon.png" },
+        { rel: "stylesheet", type: "text/css", href: "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" }
+      ]
+    }
+  },
+  modules: ['@primevue/nuxt-module'],
+
+  primevue: {
+      options: {
+          theme: {
+              preset: Aura
+          }
+      }
+  }
+})

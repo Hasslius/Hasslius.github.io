@@ -1,0 +1,22 @@
+{
+    "name": "Harrison Ennis",
+    "description": "Cyber Security Professional with a hands-on approach to building secure, private systems. Demonstrated experience with Python, Debian, Self-Hosted LLM's, and ISO 27001/Essential Eight Frameworks.",
+    "socials": [
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/harrisonennis/",
+            "icon": "/linkedin.png"
+        },
+        {
+            "name": "GitHub",
+            "link": "https://github.com/Hasslius",
+            "icon": "/github.png"
+        },
+        {
+            "name": "Email",
+            "link": "mailto:h.ennis.cyber@gmail.com",
+            "icon": "/gmail.png"
+        }
+    ],
+    "github": "Hasslius"
+}

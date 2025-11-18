@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Certified in Cybersecurity (CC)",
+        "description": "The CC credential validates a grasp of fundamental cyber security principles and skills, proving their job readiness to organisations and helping to build a stronger line of defence.",
+        "grantor": "ISC2",
+        "link": "https://www.credly.com/badges/a41347cd-0231-42b3-8d71-8f5aef39ea5e/linked_in_profile"
+    },
+    {
+        "name": "Google AI Essentials",
+        "description": "Google AI Essentials is a self-paced, beginner course teaching foundational AI skills to boost workplace productivity.",
+        "grantor": "Coursera",
+        "link": "https://www.coursera.org/account/accomplishments/verify/B30SPGEVXK59"
+    },
+    {
+        "name": "Security+ (Coming Soon)",
+        "description": "CompTIA Security+ is a globally recognized, vendor-neutral certification that validates the baseline skills needed to perform core cybersecurity functions.",
+        "grantor": "CompTIA",
+        "link": ""
+    }
+]

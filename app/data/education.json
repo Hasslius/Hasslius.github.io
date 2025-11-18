@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Certificate IV in Cyber Security",
+        "subtitle": "Kangan Institute - Feb 2025 - Nov 2025",
+        "description": "Developed skills in networking and virtualisation with a future focus on technical skills within cloud networking. Hands on experience with Debian distributions and penetration testing software. Undertook various projects with a focus on developing fundamental Cyber security skills.",
+        "image": "/kangan.png"
+    },
+    {
+        "title": "Bachelor of Science - BS, Chemsitry",
+        "subtitle": "RMIT University - Feb 2024 - Feb 2025",
+        "description": "Transferred from my Biomedical Science degree - Developed tertiary level mathematics skills. Emphasis on ethical practices in the field of STEM coinciding with an understanding of statistics. Assigned an environmental field project focused on mapping local waterways and their associated water quality levels.",
+        "image": "/RMIT.png"
+    },
+    {
+        "title": "Bachelor of Biomedical Science, Medicine",
+        "subtitle": "University of the Sunshine Coast - Feb 2019 - Feb 2024",
+        "description": "Focused degree on developing skills and knowledge to progress into post graduate medicine.",
+        "image": "/USC.png"
+    } 
+]
